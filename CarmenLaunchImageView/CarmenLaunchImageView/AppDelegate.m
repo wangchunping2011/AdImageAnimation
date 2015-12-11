@@ -23,8 +23,6 @@
     AdImageView *adImageView = [[AdImageView alloc]initWithImage:[UIImage carmen_getLunchImage]];
     adImageView.urlString = @"http://img1.126.net/channel6/2015/020002/2.jpg?dpi=6401136";
     [adImageView showInWindowWithAnimation:[CarmenLaunchFadeScaleAnimation fadeAnimationWithDelay:5.0] completion:^(BOOL finished) {
-//        [[UIApplication sharedApplication] setStatusBarHidden:NO];
-//        [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDefault];
         NSLog(@"finished");
     }];
     return YES;

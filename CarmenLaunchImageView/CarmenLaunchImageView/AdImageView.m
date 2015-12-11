@@ -50,7 +50,6 @@
 
 - (void)layoutSubviews{
     [super layoutSubviews];
-    
     _adImageView.frame = CGRectMake(0, 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame)*0.78);
 }
 @end
