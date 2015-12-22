@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98F73FF01C29305600669098 /* ADDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F73FEF1C29305600669098 /* ADDetailsViewController.m */; };
 		98F825AC1C1978A7005EBFA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825AB1C1978A7005EBFA1 /* main.m */; };
 		98F825AF1C1978A7005EBFA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825AE1C1978A7005EBFA1 /* AppDelegate.m */; };
 		98F825B21C1978A7005EBFA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825B11C1978A7005EBFA1 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98F73FEE1C29305600669098 /* ADDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDetailsViewController.h; sourceTree = "<group>"; };
+		98F73FEF1C29305600669098 /* ADDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDetailsViewController.m; sourceTree = "<group>"; };
 		98F825A71C1978A7005EBFA1 /* CarmenLaunchImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarmenLaunchImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F825AB1C1978A7005EBFA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98F825AD1C1978A7005EBFA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				98F825B11C1978A7005EBFA1 /* ViewController.m */,
 				98F825C11C197936005EBFA1 /* AdImageView.h */,
 				98F825C21C197936005EBFA1 /* AdImageView.m */,
+				98F73FEE1C29305600669098 /* ADDetailsViewController.h */,
+				98F73FEF1C29305600669098 /* ADDetailsViewController.m */,
 				98F825B31C1978A7005EBFA1 /* Main.storyboard */,
 				98F825B61C1978A7005EBFA1 /* Assets.xcassets */,
 				98F825BB1C1978A7005EBFA1 /* Info.plist */,
@@ -181,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F825B21C1978A7005EBFA1 /* ViewController.m in Sources */,
+				98F73FF01C29305600669098 /* ADDetailsViewController.m in Sources */,
 				98F825AF1C1978A7005EBFA1 /* AppDelegate.m in Sources */,
 				98F825D41C198654005EBFA1 /* CarmenLaunchBaseAnimation.m in Sources */,
 				98F825CE1C197FAA005EBFA1 /* UIImage+CarmenLaunchImageView.m in Sources */,

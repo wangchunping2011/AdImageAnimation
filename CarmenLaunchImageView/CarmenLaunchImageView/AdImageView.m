@@ -23,6 +23,7 @@
 - (instancetype)initWithImage:(UIImage *)image{
     if (self = [super initWithImage:image]) {
         [self addAdImageVIew];
+        [self addSingleTapGesture];
     }
     return self;
 }
@@ -31,6 +32,10 @@
     UIImageView *adImageView = [[UIImageView alloc]init];
     [self addSubview:adImageView];
     _adImageView = adImageView;
+}
+- (void)addSingleTapGesture{
+    UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(singleTapGesture:)];
+    [self addGestureRecognizer:singleTap];
 }
 
 - (void)setUrlString:(NSString *)urlString{
@@ -46,6 +51,22 @@
             } completion:nil];
         });
     });
+}
+
+- (void)singleTapGesture:(UITapGestureRecognizer *)recognizer{
+    if (self.clickedImageURLHandle) {
+        self.clickedImageURLHandle(self.urlString);
+    }
+    if (self.superview) {
+        [self removeFromSuperview];
+    }
+}
+
+- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event{
+    if (self.hidden == NO && _adImageView.alpha > 0 && CGRectContainsPoint(_adImageView.frame, point)) {
+        return self;
+    }
+    return nil;
 }
 
 - (void)layoutSubviews{

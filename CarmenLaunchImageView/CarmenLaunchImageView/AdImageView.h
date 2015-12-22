@@ -10,4 +10,6 @@
 
 @interface AdImageView : UIImageView
 @property(strong, nonatomic)NSString *urlString;
+
+@property (nonatomic, copy)void (^clickedImageURLHandle)(NSString *urlString);
 @end

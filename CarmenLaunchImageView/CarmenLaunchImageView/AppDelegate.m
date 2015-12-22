@@ -11,6 +11,7 @@
 #import "UIImage+CarmenLaunchImageView.h"
 #import "UIView+CarmenLaunchAnimation.h"
 #import "CarmenLaunchFadeScaleAnimation.h"
+#import "ADDetailsViewController.h"
 
 @interface AppDelegate ()
 
@@ -25,7 +26,19 @@
     [adImageView showInWindowWithAnimation:[CarmenLaunchFadeScaleAnimation fadeAnimationWithDelay:5.0] completion:^(BOOL finished) {
         NSLog(@"finished");
     }];
+    
+     __typeof (self) __weak weakSelf = self;
+    [adImageView setClickedImageURLHandle:^(NSString *URLString) {
+        [weakSelf pushAdViewCntroller:URLString];
+    }];
     return YES;
+}
+
+- (void)pushAdViewCntroller:(NSString *)urlStr{
+    UINavigationController *nc = (UINavigationController *)self.window.rootViewController;
+    ADDetailsViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ADDetailsViewController"];
+    vc.urlStr = urlStr;
+    [nc pushViewController:vc animated:true];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
