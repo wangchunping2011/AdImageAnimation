@@ -1,2 +1,2 @@
 # AdImageAnimation
-![](https://github.com/YoungCarmen/AdImageAnimation/raw/CarmenLaunchImageView/Untitled2.gif) 
+![baidu](http://www.baidu.com/img/bdlogo.gif)  
