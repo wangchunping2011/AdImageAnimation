@@ -1,2 +1,2 @@
 # AdImageAnimation
-![](https://github.com/YoungCarmen/AdImageAnimation/raw/master/Untitled2.gif) 
+![](https://github.com/YoungCarmen/AdImageAnimation/raw/Untitled2.gif) 
