@@ -1,0 +1,13 @@
+//
+//  PrefixHeader.pch
+//  CarmenLaunchImageView
+//
+//  Created by 王春平 on 16/3/1.
+//  Copyright © 2016年 Carmen. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "Header.h"
+#endif /* PrefixHeader_pch */
