@@ -7,11 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "AdImageView.h"
-#import "UIImage+CarmenLaunchImageView.h"
-#import "UIView+CarmenLaunchAnimation.h"
-#import "CarmenLaunchFadeScaleAnimation.h"
-#import "ADDetailsViewController.h"
 
 @interface AppDelegate ()
 
@@ -23,22 +18,15 @@
     // Override point for customization after application launch.
     AdImageView *adImageView = [[AdImageView alloc]initWithImage:[UIImage carmen_getLunchImage]];
     adImageView.urlString = @"http://img1.126.net/channel6/2015/020002/2.jpg?dpi=6401136";
-    [adImageView showInWindowWithAnimation:[CarmenLaunchFadeScaleAnimation fadeAnimationWithDelay:5.0] completion:^(BOOL finished) {
-        NSLog(@"finished");
+    [adImageView showInWindowWithAnimation:[CarmenLaunchFadeScaleAnimation fadeAnimationWithDelay:3.0] completion:^(BOOL finished) {
     }];
-    
-     __typeof (self) __weak weakSelf = self;
     [adImageView setClickedImageURLHandle:^(NSString *URLString) {
-        [weakSelf pushAdViewCntroller:URLString];
+        UINavigationController *nc = (UINavigationController *)self.window.rootViewController;
+        AdDetailController *vc = [[AdDetailController alloc] init];
+        vc.urlString = URLString;
+        [nc pushViewController:vc animated:true];
     }];
     return YES;
-}
-
-- (void)pushAdViewCntroller:(NSString *)urlStr{
-    UINavigationController *nc = (UINavigationController *)self.window.rootViewController;
-    ADDetailsViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ADDetailsViewController"];
-    vc.urlStr = urlStr;
-    [nc pushViewController:vc animated:true];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

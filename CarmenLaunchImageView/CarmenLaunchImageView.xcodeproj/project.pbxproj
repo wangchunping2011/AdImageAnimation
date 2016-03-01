@@ -7,22 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		98F73FF01C29305600669098 /* ADDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F73FEF1C29305600669098 /* ADDetailsViewController.m */; };
 		98F825AC1C1978A7005EBFA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825AB1C1978A7005EBFA1 /* main.m */; };
 		98F825AF1C1978A7005EBFA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825AE1C1978A7005EBFA1 /* AppDelegate.m */; };
 		98F825B21C1978A7005EBFA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825B11C1978A7005EBFA1 /* ViewController.m */; };
 		98F825B51C1978A7005EBFA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98F825B31C1978A7005EBFA1 /* Main.storyboard */; };
 		98F825B71C1978A7005EBFA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F825B61C1978A7005EBFA1 /* Assets.xcassets */; };
-		98F825C31C197936005EBFA1 /* AdImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825C21C197936005EBFA1 /* AdImageView.m */; };
-		98F825CE1C197FAA005EBFA1 /* UIImage+CarmenLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825CD1C197FAA005EBFA1 /* UIImage+CarmenLaunchImageView.m */; };
-		98F825D41C198654005EBFA1 /* CarmenLaunchBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825D31C198654005EBFA1 /* CarmenLaunchBaseAnimation.m */; };
-		98F825D71C1986CA005EBFA1 /* CarmenLaunchFadeScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825D61C1986CA005EBFA1 /* CarmenLaunchFadeScaleAnimation.m */; };
-		98F825DA1C198772005EBFA1 /* UIView+CarmenLaunchAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F825D91C198772005EBFA1 /* UIView+CarmenLaunchAnimation.m */; };
+		EAC33F2E1C85872400DCC3A0 /* AdDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC33F211C85872400DCC3A0 /* AdDetailController.m */; };
+		EAC33F2F1C85872400DCC3A0 /* AdImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC33F231C85872400DCC3A0 /* AdImageView.m */; };
+		EAC33F301C85872400DCC3A0 /* CarmenLaunchBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC33F261C85872400DCC3A0 /* CarmenLaunchBaseAnimation.m */; };
+		EAC33F311C85872400DCC3A0 /* CarmenLaunchFadeScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC33F281C85872400DCC3A0 /* CarmenLaunchFadeScaleAnimation.m */; };
+		EAC33F321C85872400DCC3A0 /* UIImage+CarmenLaunchImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC33F2B1C85872400DCC3A0 /* UIImage+CarmenLaunchImageView.m */; };
+		EAC33F331C85872400DCC3A0 /* UIView+CarmenLaunchAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC33F2D1C85872400DCC3A0 /* UIView+CarmenLaunchAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		98F73FEE1C29305600669098 /* ADDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADDetailsViewController.h; sourceTree = "<group>"; };
-		98F73FEF1C29305600669098 /* ADDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADDetailsViewController.m; sourceTree = "<group>"; };
 		98F825A71C1978A7005EBFA1 /* CarmenLaunchImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarmenLaunchImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F825AB1C1978A7005EBFA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		98F825AD1C1978A7005EBFA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -32,17 +30,21 @@
 		98F825B41C1978A7005EBFA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98F825B61C1978A7005EBFA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98F825BB1C1978A7005EBFA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		98F825C11C197936005EBFA1 /* AdImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdImageView.h; sourceTree = "<group>"; };
-		98F825C21C197936005EBFA1 /* AdImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdImageView.m; sourceTree = "<group>"; };
-		98F825CC1C197FAA005EBFA1 /* UIImage+CarmenLaunchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CarmenLaunchImageView.h"; sourceTree = "<group>"; };
-		98F825CD1C197FAA005EBFA1 /* UIImage+CarmenLaunchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CarmenLaunchImageView.m"; sourceTree = "<group>"; };
-		98F825D11C19857A005EBFA1 /* CarmenLunchImageAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarmenLunchImageAnimationProtocol.h; sourceTree = "<group>"; };
-		98F825D21C198654005EBFA1 /* CarmenLaunchBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarmenLaunchBaseAnimation.h; sourceTree = "<group>"; };
-		98F825D31C198654005EBFA1 /* CarmenLaunchBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarmenLaunchBaseAnimation.m; sourceTree = "<group>"; };
-		98F825D51C1986CA005EBFA1 /* CarmenLaunchFadeScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarmenLaunchFadeScaleAnimation.h; sourceTree = "<group>"; };
-		98F825D61C1986CA005EBFA1 /* CarmenLaunchFadeScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarmenLaunchFadeScaleAnimation.m; sourceTree = "<group>"; };
-		98F825D81C198772005EBFA1 /* UIView+CarmenLaunchAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CarmenLaunchAnimation.h"; sourceTree = "<group>"; };
-		98F825D91C198772005EBFA1 /* UIView+CarmenLaunchAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CarmenLaunchAnimation.m"; sourceTree = "<group>"; };
+		EAC33F201C85872400DCC3A0 /* AdDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdDetailController.h; sourceTree = "<group>"; };
+		EAC33F211C85872400DCC3A0 /* AdDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdDetailController.m; sourceTree = "<group>"; };
+		EAC33F221C85872400DCC3A0 /* AdImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdImageView.h; sourceTree = "<group>"; };
+		EAC33F231C85872400DCC3A0 /* AdImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdImageView.m; sourceTree = "<group>"; };
+		EAC33F251C85872400DCC3A0 /* CarmenLaunchBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarmenLaunchBaseAnimation.h; sourceTree = "<group>"; };
+		EAC33F261C85872400DCC3A0 /* CarmenLaunchBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarmenLaunchBaseAnimation.m; sourceTree = "<group>"; };
+		EAC33F271C85872400DCC3A0 /* CarmenLaunchFadeScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarmenLaunchFadeScaleAnimation.h; sourceTree = "<group>"; };
+		EAC33F281C85872400DCC3A0 /* CarmenLaunchFadeScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarmenLaunchFadeScaleAnimation.m; sourceTree = "<group>"; };
+		EAC33F291C85872400DCC3A0 /* CarmenLunchImageAnimationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarmenLunchImageAnimationProtocol.h; sourceTree = "<group>"; };
+		EAC33F2A1C85872400DCC3A0 /* UIImage+CarmenLaunchImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CarmenLaunchImageView.h"; sourceTree = "<group>"; };
+		EAC33F2B1C85872400DCC3A0 /* UIImage+CarmenLaunchImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CarmenLaunchImageView.m"; sourceTree = "<group>"; };
+		EAC33F2C1C85872400DCC3A0 /* UIView+CarmenLaunchAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CarmenLaunchAnimation.h"; sourceTree = "<group>"; };
+		EAC33F2D1C85872400DCC3A0 /* UIView+CarmenLaunchAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CarmenLaunchAnimation.m"; sourceTree = "<group>"; };
+		EAC33F341C85873D00DCC3A0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EAC33F351C85874400DCC3A0 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,15 +77,12 @@
 		98F825A91C1978A7005EBFA1 /* CarmenLaunchImageView */ = {
 			isa = PBXGroup;
 			children = (
-				98F825CB1C197FAA005EBFA1 /* CarmenLunchImageAnimation */,
+				EAC33F1F1C85872400DCC3A0 /* Animation */,
 				98F825AD1C1978A7005EBFA1 /* AppDelegate.h */,
 				98F825AE1C1978A7005EBFA1 /* AppDelegate.m */,
 				98F825B01C1978A7005EBFA1 /* ViewController.h */,
 				98F825B11C1978A7005EBFA1 /* ViewController.m */,
-				98F825C11C197936005EBFA1 /* AdImageView.h */,
-				98F825C21C197936005EBFA1 /* AdImageView.m */,
-				98F73FEE1C29305600669098 /* ADDetailsViewController.h */,
-				98F73FEF1C29305600669098 /* ADDetailsViewController.m */,
+				EAC33F351C85874400DCC3A0 /* Header.h */,
 				98F825B31C1978A7005EBFA1 /* Main.storyboard */,
 				98F825B61C1978A7005EBFA1 /* Assets.xcassets */,
 				98F825BB1C1978A7005EBFA1 /* Info.plist */,
@@ -95,23 +94,36 @@
 		98F825AA1C1978A7005EBFA1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAC33F341C85873D00DCC3A0 /* PrefixHeader.pch */,
 				98F825AB1C1978A7005EBFA1 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		98F825CB1C197FAA005EBFA1 /* CarmenLunchImageAnimation */ = {
+		EAC33F1F1C85872400DCC3A0 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				98F825D11C19857A005EBFA1 /* CarmenLunchImageAnimationProtocol.h */,
-				98F825D21C198654005EBFA1 /* CarmenLaunchBaseAnimation.h */,
-				98F825D31C198654005EBFA1 /* CarmenLaunchBaseAnimation.m */,
-				98F825D51C1986CA005EBFA1 /* CarmenLaunchFadeScaleAnimation.h */,
-				98F825D61C1986CA005EBFA1 /* CarmenLaunchFadeScaleAnimation.m */,
-				98F825D81C198772005EBFA1 /* UIView+CarmenLaunchAnimation.h */,
-				98F825D91C198772005EBFA1 /* UIView+CarmenLaunchAnimation.m */,
-				98F825CC1C197FAA005EBFA1 /* UIImage+CarmenLaunchImageView.h */,
-				98F825CD1C197FAA005EBFA1 /* UIImage+CarmenLaunchImageView.m */,
+				EAC33F201C85872400DCC3A0 /* AdDetailController.h */,
+				EAC33F211C85872400DCC3A0 /* AdDetailController.m */,
+				EAC33F221C85872400DCC3A0 /* AdImageView.h */,
+				EAC33F231C85872400DCC3A0 /* AdImageView.m */,
+				EAC33F241C85872400DCC3A0 /* CarmenLunchImageAnimation */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		EAC33F241C85872400DCC3A0 /* CarmenLunchImageAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				EAC33F251C85872400DCC3A0 /* CarmenLaunchBaseAnimation.h */,
+				EAC33F261C85872400DCC3A0 /* CarmenLaunchBaseAnimation.m */,
+				EAC33F271C85872400DCC3A0 /* CarmenLaunchFadeScaleAnimation.h */,
+				EAC33F281C85872400DCC3A0 /* CarmenLaunchFadeScaleAnimation.m */,
+				EAC33F291C85872400DCC3A0 /* CarmenLunchImageAnimationProtocol.h */,
+				EAC33F2A1C85872400DCC3A0 /* UIImage+CarmenLaunchImageView.h */,
+				EAC33F2B1C85872400DCC3A0 /* UIImage+CarmenLaunchImageView.m */,
+				EAC33F2C1C85872400DCC3A0 /* UIView+CarmenLaunchAnimation.h */,
+				EAC33F2D1C85872400DCC3A0 /* UIView+CarmenLaunchAnimation.m */,
 			);
 			path = CarmenLunchImageAnimation;
 			sourceTree = "<group>";
@@ -186,14 +198,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F825B21C1978A7005EBFA1 /* ViewController.m in Sources */,
-				98F73FF01C29305600669098 /* ADDetailsViewController.m in Sources */,
 				98F825AF1C1978A7005EBFA1 /* AppDelegate.m in Sources */,
-				98F825D41C198654005EBFA1 /* CarmenLaunchBaseAnimation.m in Sources */,
-				98F825CE1C197FAA005EBFA1 /* UIImage+CarmenLaunchImageView.m in Sources */,
+				EAC33F301C85872400DCC3A0 /* CarmenLaunchBaseAnimation.m in Sources */,
+				EAC33F331C85872400DCC3A0 /* UIView+CarmenLaunchAnimation.m in Sources */,
 				98F825AC1C1978A7005EBFA1 /* main.m in Sources */,
-				98F825D71C1986CA005EBFA1 /* CarmenLaunchFadeScaleAnimation.m in Sources */,
-				98F825DA1C198772005EBFA1 /* UIView+CarmenLaunchAnimation.m in Sources */,
-				98F825C31C197936005EBFA1 /* AdImageView.m in Sources */,
+				EAC33F2F1C85872400DCC3A0 /* AdImageView.m in Sources */,
+				EAC33F321C85872400DCC3A0 /* UIImage+CarmenLaunchImageView.m in Sources */,
+				EAC33F311C85872400DCC3A0 /* CarmenLaunchFadeScaleAnimation.m in Sources */,
+				EAC33F2E1C85872400DCC3A0 /* AdDetailController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CarmenLaunchImageView/PrefixHeader.pch";
 				INFOPLIST_FILE = CarmenLaunchImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiangzhuo.CarmenLaunchImageView;
@@ -308,6 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CarmenLaunchImageView/PrefixHeader.pch";
 				INFOPLIST_FILE = CarmenLaunchImageView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiangzhuo.CarmenLaunchImageView;
